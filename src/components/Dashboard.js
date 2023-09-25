@@ -1,6 +1,11 @@
 import React from "react";
-import "Dashboard.css";
+import "./Dashboard.css";
 
 export default function Dashboard() {
-  return <div>Dashboard</div>;
+  return (
+    <div>
+      <h1>Dashboard</h1>
+      <p>Protected Route</p>
+    </div>
+  );
 }
